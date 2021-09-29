@@ -45,20 +45,20 @@ Create your migrations.
   
 ## Relationship
 
-- What associations will this need?
-- (i.e. `has_many`, `has_many through`, and `belongs_to`)
+-X What associations will this need?
+-X (i.e. `has_many`, `has_many through`, and `belongs_to`)
 
 ## Audition
 
-- `Audition#role` returns an instance of role associated with this audition
-- `Audition#call_back` will change the the hired attribute to `true`
+-X `Audition#role` returns an instance of role associated with this audition
+-X `Audition#call_back` will change the the hired attribute to `true`
 
 ## Roles
 
-- `Role#auditions` returns all of the auditions associated with this role 
-- `Role#actors` returns an array of names from the actors associated with this role
-- `Role#locations` returns an array of locations from the auditions associated with this role
-- `Role#lead` returns the first instance of the audition that was hired for this role or returns a string 'no actor has been hired for this role'
-- `Role#understudy` returns the second instance of the audition that was hired for this role or returns a string 'no actor has been hired for understudy for this role'
+-X `Role#auditions` returns all of the auditions associated with this role 
+-X `Role#actors` returns an array of names from the actors associated with this role
+-X `Role#locations` returns an array of locations from the auditions associated with this role
+-X `Role#lead` returns the first instance of the audition that was hired for this role or returns a string 'no actor has been hired for this role'
+-X `Role#understudy` returns the second instance of the audition that was hired for this role or returns a string 'no actor has been hired for understudy for this role'
 
 
